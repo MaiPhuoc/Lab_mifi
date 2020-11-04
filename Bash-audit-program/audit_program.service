@@ -1,0 +1,10 @@
+[Unit]
+Description=Audit persistence programme service
+[Service]
+Type=simple
+ExecStart=/usr/bin/audit_persistence.sh
+Restart=always
+User=root
+Group=root
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+ifa=112+23;
+print ifa;
+b=11*22-21;
+print b;
+aa= 4+9;
+bbbb= 5;
+print aa;
+print bbbb;
+print 11+2;
+
+
